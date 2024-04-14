@@ -33,6 +33,11 @@ function Hero() {
 
 const Wrapper = styled.div`
   background-color: unset;
+  padding: 2rem 3rem;
+
+  .title {
+    font-size: 30px;
+  }
 
   .main-img {
     display: none;
