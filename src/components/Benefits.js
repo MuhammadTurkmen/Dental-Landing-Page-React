@@ -112,6 +112,35 @@ const Wrapper = styled.div`
       gap: 5rem;
     }
   }
+
+  @media only screen and (min-width: 1300px) {
+    .ann {
+      width: 560px;
+      height: 660px;
+    }
+
+    .img-container {
+      position: relative;
+    }
+
+    .teeth-container {
+      background-color: #f2e9b7;
+      position: absolute;
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      border-radius: 30px;
+      bottom: 12rem;
+      left: -6rem;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
 `;
 
 export default Benefits;
