@@ -22,8 +22,8 @@ function Benefits() {
           <div className="benefits-container">
             {all_benefits.map(({ id, name, check }) => {
               return (
-                <div key={id}>
-                  <img src={check} alt="" />
+                <div className="check-container" key={id}>
+                  <img src={check} alt="adding check" />
                   <p>{name}</p>
                 </div>
               );
@@ -52,6 +52,11 @@ const Wrapper = styled.div`
     border-radius: 5px;
     display: inline-block;
     color: var(--dark-green, #395a44);
+  }
+  .check-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
   }
 `;
 
