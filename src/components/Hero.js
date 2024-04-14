@@ -95,6 +95,7 @@ const Wrapper = styled.div`
 
   @media only screen and (min-width: 800px) {
     padding: 1rem 3.5rem;
+    padding-bottom: 3rem;
 
     .title {
       font-size: 55px;
@@ -112,6 +113,7 @@ const Wrapper = styled.div`
       display: flex;
       gap: 1rem;
       align-items: center;
+      padding-bottom: 5rem;
     }
     .text-container {
       flex: 1;
@@ -161,6 +163,8 @@ const Wrapper = styled.div`
     padding: 1rem 5.5rem;
     .container {
       gap: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 10rem;
     }
     .main-img {
       width: 700px;

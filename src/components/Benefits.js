@@ -74,6 +74,10 @@ const Wrapper = styled.div`
     border-radius: 10px;
     border: none;
     margin-top: 3rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn:hover {
+    transform: scale(1.3);
   }
 
   @media only screen and (min-width: 800px) {
@@ -93,11 +97,8 @@ const Wrapper = styled.div`
       text-align: start;
     }
 
-    .ann,
-    .teeth-container {
-      display: block;
-    }
     .ann {
+      display: block;
       width: 450px;
       height: 550px;
       border-radius: 10px;
