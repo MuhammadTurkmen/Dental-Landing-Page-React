@@ -15,6 +15,7 @@ function Hero() {
           </p>
           <button className="dark-btn">OK</button>
           <button className="light-btn">Not Now</button>
+          <div className="smile-container"></div>
         </div>
         <div className="img-container"></div>
       </div>

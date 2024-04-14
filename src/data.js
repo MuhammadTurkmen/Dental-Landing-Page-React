@@ -1,3 +1,4 @@
+import smile from "./images/smile_girl.svg";
 export const links = [
   {
     id: 1,
@@ -20,3 +21,5 @@ export const links = [
     path: "#contact",
   },
 ];
+
+export const smile_pics = [smile, smile, smile, smile, smile];
