@@ -55,8 +55,8 @@ const Wrapper = styled.div`
   }
 
   .text-container h1 {
-    text-align: start;
-    margin: 2rem 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   .check-container {
@@ -64,6 +64,7 @@ const Wrapper = styled.div`
     gap: 1rem;
     align-items: center;
     margin: 0 auto;
+    width: 300px;
   }
 `;
 
