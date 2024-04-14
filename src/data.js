@@ -1,4 +1,6 @@
 import smile from "./images/smile_girl.svg";
+import tooth from "./images/svg/icons8-tooth-50 1.png";
+
 export const links = [
   {
     id: 1,
@@ -42,5 +44,24 @@ export const smile_pics = [
   {
     id: 5,
     smile,
+  },
+];
+
+export const Teeth_pictuers = [
+  {
+    id: 1,
+    tooth,
+  },
+  {
+    id: 2,
+    tooth,
+  },
+  {
+    id: 3,
+    tooth,
+  },
+  {
+    id: 4,
+    tooth,
   },
 ];
