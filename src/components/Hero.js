@@ -5,7 +5,17 @@ function Hero() {
   return (
     <Wrapper>
       <div className="container">
-        <div className="text-container"></div>
+        <div className="text-container">
+          <h1 className="title">
+            Creating a Beautiful Smile For a Dental Health{" "}
+          </h1>
+          <p className="desc">
+            We will give you the best smile you deserve with complete and modern
+            facilities services only at our dental clinic.
+          </p>
+          <button className="dark-btn">OK</button>
+          <button className="light-btn">Not Now</button>
+        </div>
         <div className="img-container"></div>
       </div>
     </Wrapper>
