@@ -65,3 +65,26 @@ export const Teeth_pictuers = [
     tooth,
   },
 ];
+
+export const all_benefits = [
+  {
+    id: 1,
+    name: "Top quality dental team",
+  },
+  {
+    id: 2,
+    name: "immunization",
+  },
+  {
+    id: 3,
+    name: "Discount on all dental treatment ",
+  },
+  {
+    id: 4,
+    name: "immunization",
+  },
+  {
+    id: 5,
+    name: "Emergence services",
+  },
+];
