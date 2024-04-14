@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Ann from "../images/Ann-1.jpg";
 import { Teeth_pictuers } from "../data";
+import { all_benefits } from "../data";
 
 function Benefits() {
   return (
     <Wrapper>
-      <p className="Benefits">Benefits</p>
+      <p className="title">Benefits</p>
       <div className="container">
         <div className="img-container">
           <img className="ann" src={Ann} alt="doctor" />
@@ -18,6 +19,16 @@ function Benefits() {
         </div>
         <div className="text-container">
           <h1>Opps</h1>
+          <div className="benefits-container">
+            {all_benefits.map(({ id, name }) => {
+              return (
+                <div key={id}>
+                  <img src="" alt="" />
+                  <p>{name}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </Wrapper>
@@ -34,7 +45,7 @@ const Wrapper = styled.div`
   .teeth-container {
     display: none;
   }
-  .Benefits {
+  .title {
     background-color: #f2e9b7;
     padding: 5px 10px;
     font-size: 10px;
