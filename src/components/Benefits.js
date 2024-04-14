@@ -69,25 +69,28 @@ const Wrapper = styled.div`
   }
 
   .btn {
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
     background-color: #f2e9b7;
     border-radius: 10px;
     border: none;
+    margin-top: 3rem;
   }
 
   @media only screen and (min-width: 800px) {
     .text-container h1 {
       font-size: 50px;
+      margin-bottom: 3rem;
+    }
+  }
+  @media only screen and (min-width: 1020px) {
+    .text-container h1 {
+      font-size: 50px;
       margin-top: 0;
       margin-bottom: 3rem;
-      text-align: start;
     }
 
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      gap: 5rem;
+    .text-container {
+      text-align: start;
     }
 
     .ann,
@@ -100,8 +103,13 @@ const Wrapper = styled.div`
       border-radius: 10px;
       object-fit: cover;
     }
-  }
-  @media only screen and (min-width: 1020px) {
+    .container {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      gap: 5rem;
+    }
   }
 `;
 
