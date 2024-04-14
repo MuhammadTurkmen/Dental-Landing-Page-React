@@ -144,8 +144,8 @@ const Wrapper = styled.div`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      right: 0;
-      top: 0;
+      bottom: 10rem;
+      right: -50px;
       img {
         width: 30px;
       }
