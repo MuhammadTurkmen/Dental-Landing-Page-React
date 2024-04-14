@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Ann from "../images/Ann-1.jpg";
-import tooth from "../images/svg/icons8-tooth-50 1.png";
+import { Teeth_pictuers } from "../data";
 
 function Benefits() {
   return (
@@ -11,10 +11,14 @@ function Benefits() {
         <div className="img-container">
           <img className="ann" src={Ann} alt="doctor" />
           <div className="teeth-container">
-            <img src={tooth} alt="tooth" />
+            {Teeth_pictuers.map(({ id, tooth }) => {
+              return <img src={tooth} key={id} alt="tooth" />;
+            })}
           </div>
         </div>
-        <div className="text-container"></div>
+        <div className="text-container">
+          <h1>Opps</h1>
+        </div>
       </div>
     </Wrapper>
   );
