@@ -15,7 +15,9 @@ function Services() {
         </div>
         <a href="#">More Services</a>
       </div>
-      <div className="card-container"></div>
+      <div className="card-container">
+        <div className="card"></div>
+      </div>
     </Wrapper>
   );
 }
