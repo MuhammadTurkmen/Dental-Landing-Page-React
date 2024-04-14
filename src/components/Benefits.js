@@ -119,6 +119,10 @@ const Wrapper = styled.div`
       height: 660px;
     }
 
+    .container {
+      gap: 10rem;
+    }
+
     .img-container {
       position: relative;
     }
