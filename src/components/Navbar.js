@@ -118,7 +118,7 @@ const Wrapper = styled.div`
 
   @media only screen and (min-width: 800px) {
     .container {
-      padding: 1rem 2rem;
+      padding: 1.5rem 3.5rem;
     }
     .logo {
       margin-left: 0;
@@ -137,6 +137,7 @@ const Wrapper = styled.div`
       a {
         font-size: 20px;
         color: #395a44;
+        font-size: 16px;
       }
 
       a.contact-us {
@@ -153,6 +154,21 @@ const Wrapper = styled.div`
       display: block;
       color: #e5efe8;
       background-color: #395a44;
+      transition: all 0.3s ease-in-out;
+    }
+    a.contact-us:hover {
+      transform: scale(1.2);
+    }
+  }
+  @media only screen and (min-width: 1020px) {
+    .container {
+      padding: 2rem 4rem;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    .container {
+      padding: 2rem 5.5rem;
     }
   }
 `;

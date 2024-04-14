@@ -37,8 +37,8 @@ function Hero() {
 }
 
 const Wrapper = styled.div`
-  background-color: unset;
-  padding: 2rem 3rem;
+  background-color: #e5efe8;
+  padding: 2rem 1.5rem;
 
   .title {
     font-size: 30px;
@@ -62,6 +62,8 @@ const Wrapper = styled.div`
   }
   .btn:hover {
     transform: scale(1.1);
+    background-color: #395a44;
+    color: #e5efe8;
   }
 
   .dark {
@@ -70,8 +72,72 @@ const Wrapper = styled.div`
     color: #fff;
     padding: 0.8rem 3.5rem;
   }
+
+  .light {
+    background-color: #e5efe8;
+  }
+
   .smile {
     margin-left: -1.5rem;
+  }
+  .smile-container {
+    margin-left: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 800px) {
+    padding: 1rem 3.5rem;
+
+    .title {
+      font-size: 55px;
+    }
+    .desc {
+      font-size: 19px;
+      line-height: 28px;
+    }
+  }
+
+  @media only screen and (min-width: 1020px) {
+    padding: 0 4rem;
+
+    .container {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .text-container {
+      flex: 1;
+    }
+    .title {
+      font-size: 55px;
+    }
+    .desc {
+      font-size: 19px;
+      line-height: 28px;
+    }
+
+    .main-img {
+      display: block;
+      width: 450px;
+      height: 500px;
+      object-fit: cover;
+      aspect-ratio: 1/2;
+      flex: 1;
+      border-radius: 10px;
+      border: 2px solid #395a44;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    padding: 1rem 5.5rem;
+    .container {
+      gap: 3rem;
+    }
+    .main-img {
+      width: 700px;
+      height: 600px;
+    }
   }
 `;
 
