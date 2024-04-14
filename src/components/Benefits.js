@@ -10,7 +10,9 @@ function Benefits() {
       <div className="container">
         <div className="img-container">
           <img className="ann" src={Ann} alt="doctor" />
-          <div className="teeth-container"></div>
+          <div className="teeth-container">
+            <img src={tooth} alt="tooth" />
+          </div>
         </div>
         <div className="text-container"></div>
       </div>
