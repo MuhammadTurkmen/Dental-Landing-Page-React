@@ -53,10 +53,17 @@ const Wrapper = styled.div`
     display: inline-block;
     color: var(--dark-green, #395a44);
   }
+
+  .text-container h1 {
+    text-align: start;
+    margin: 2rem 0;
+  }
+
   .check-container {
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin: 0 auto;
   }
 `;
 

@@ -56,7 +56,7 @@ const Wrapper = styled.div`
   }
   .links-container {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: var(--dark-green, #395a44);
     width: 100%;
     top: 0;
