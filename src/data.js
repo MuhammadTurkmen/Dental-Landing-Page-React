@@ -22,4 +22,25 @@ export const links = [
   },
 ];
 
-export const smile_pics = [smile, smile, smile, smile, smile];
+export const smile_pics = [
+  {
+    id: 1,
+    smile,
+  },
+  {
+    id: 2,
+    smile,
+  },
+  {
+    id: 3,
+    smile,
+  },
+  {
+    id: 4,
+    smile,
+  },
+  {
+    id: 5,
+    smile,
+  },
+];
