@@ -29,6 +29,7 @@ function Benefits() {
               );
             })}
           </div>
+          <button className="btn">Hello</button>
         </div>
       </div>
     </Wrapper>
@@ -65,6 +66,42 @@ const Wrapper = styled.div`
     align-items: center;
     margin: 0 auto;
     width: 300px;
+  }
+
+  .btn {
+    padding: 1rem 3rem;
+    background-color: #f2e9b7;
+    border-radius: 10px;
+    border: none;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .text-container h1 {
+      font-size: 50px;
+      margin-top: 0;
+      margin-bottom: 3rem;
+      text-align: start;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      gap: 5rem;
+    }
+
+    .ann,
+    .teeth-container {
+      display: block;
+    }
+    .ann {
+      width: 450px;
+      height: 550px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+  @media only screen and (min-width: 1020px) {
   }
 `;
 
