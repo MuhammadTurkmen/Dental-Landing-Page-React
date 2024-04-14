@@ -7,7 +7,7 @@ function Services() {
       <p className="title">Services</p>
       <div className="text-container">
         <div className="clinic-services">
-          <h1>Clinic Services</h1>
+          <h1 className="services-title">Clinic Services</h1>
           <p className="desc">
             we use the best quality materials on the market in order to provide
             the best products to our patients
