@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { smile_pics } from "../data";
 import women from "../images/women.png";
+import card from "../images/svg/Group 6.svg";
 
 function Hero() {
   return (
@@ -30,6 +31,10 @@ function Hero() {
         </div>
         <div className="img-container">
           <img className="main-img" src={women} alt="" />
+          <div className="Care-container">
+            <img src={card} alt="card" />
+            <p>Dental Care Clinic</p>
+          </div>
         </div>
       </div>
     </Wrapper>
@@ -50,7 +55,8 @@ const Wrapper = styled.div`
     color: #395a44;
   }
 
-  .main-img {
+  .main-img,
+  .Care-container {
     display: none;
   }
   .btn {
@@ -127,6 +133,28 @@ const Wrapper = styled.div`
       flex: 1;
       border-radius: 10px;
       border: 2px solid #395a44;
+    }
+    .Care-container {
+      display: flex;
+      position: absolute;
+      background: var(--Yellow, #f2e9b7);
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      top: 0;
+      img {
+        width: 30px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .img-container {
+      position: relative;
     }
   }
   @media only screen and (min-width: 1300px) {
