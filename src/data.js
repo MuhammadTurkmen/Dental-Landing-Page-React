@@ -1,5 +1,6 @@
 import smile from "./images/smile_girl.svg";
 import tooth from "./images/svg/icons8-tooth-50 1.png";
+import check from "./images/svg/CheckCircle.svg";
 
 export const links = [
   {
@@ -70,21 +71,26 @@ export const all_benefits = [
   {
     id: 1,
     name: "Top quality dental team",
+    check,
   },
   {
     id: 2,
     name: "immunization",
+    check,
   },
   {
     id: 3,
     name: "Discount on all dental treatment ",
+    check,
   },
   {
     id: 4,
     name: "immunization",
+    check,
   },
   {
     id: 5,
     name: "Emergence services",
+    check,
   },
 ];

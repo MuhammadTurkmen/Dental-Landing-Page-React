@@ -20,10 +20,10 @@ function Benefits() {
         <div className="text-container">
           <h1>Opps</h1>
           <div className="benefits-container">
-            {all_benefits.map(({ id, name }) => {
+            {all_benefits.map(({ id, name, check }) => {
               return (
                 <div key={id}>
-                  <img src="" alt="" />
+                  <img src={check} alt="" />
                   <p>{name}</p>
                 </div>
               );
