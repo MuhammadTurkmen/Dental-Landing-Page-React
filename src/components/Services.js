@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { cards } from "../data";
 
 function Services() {
   return (
