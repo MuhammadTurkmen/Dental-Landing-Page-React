@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function Testimonial() {
-  return <div>Testimonial</div>;
+  return <Wrapper>Testimonial</Wrapper>;
 }
 
 const Wrapper = styled.div`
