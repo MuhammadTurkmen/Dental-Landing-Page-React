@@ -89,9 +89,11 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     text-align: start;
     border: 1px solid #395a44;
+    transition: all 0.3s ease-in-out;
   }
   .card:hover {
     box-shadow: 0px 11px 15px 0px rgba(57, 90, 68, 0.3);
+    transform: scale(1.1);
   }
 
   .btn {
@@ -125,6 +127,7 @@ const Wrapper = styled.div`
 
     .card-container {
       justify-content: center;
+      gap: 2rem 1rem;
     }
     .desc {
       font-size: 19px;
@@ -133,6 +136,16 @@ const Wrapper = styled.div`
 
   @media only screen and (min-width: 1020px) {
     padding: 6rem 4rem;
+    .text-container {
+      flex-direction: row;
+      align-items: center;
+      a {
+        align-self: center;
+      }
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    padding: 6rem 5.5rem;
   }
 `;
 
