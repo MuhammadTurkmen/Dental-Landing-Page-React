@@ -66,10 +66,14 @@ const Wrapper = styled.div`
     color: var(--Grey, #6d7d8b);
     margin: 0 auto;
     box-shadow: 0px 11px 15px 0px rgba(57, 90, 68, 0.3);
-
     p {
       font-size: 14px;
     }
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
   }
 
   .card > img {

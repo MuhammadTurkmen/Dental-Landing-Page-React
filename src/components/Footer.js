@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 function Footer() {
-  return <div>Footer page</div>;
+  return <Wrapper>Footer page</Wrapper>;
 }
 
 const Wrapper = styled.div`
   background: var(--dark-green, #395a44);
+  padding: 5rem 1.5rem;
 
   @media only screen and (min-width: 800px) {
     padding: 5rem 3.5rem;
