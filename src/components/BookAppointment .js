@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { inputs } from "../data";
 
 function BookAppointment() {
   return (
@@ -14,19 +15,14 @@ function BookAppointment() {
           </p>
           <form>
             <div className="input-container">
-              <div>
-                <label htmlFor="name">Full Name</label>
-                <input type="text" name="" id="name" />
-              </div>
-
-              <label htmlFor="number">Phone number</label>
-              <input type="number" name="" id="number" />
-
-              <label htmlFor="date">Date</label>
-              <input type="date" name="" id="date" />
-
-              <label htmlFor="time">Time</label>
-              <input type="time" name="" id="time" />
+              {inputs.map(({ id, name, type }) => {
+                return (
+                  <div key={id}>
+                    <label htmlFor={id}>Full Name</label>
+                    <input type={type} id={id} />
+                  </div>
+                );
+              })}
             </div>
           </form>
         </div>
