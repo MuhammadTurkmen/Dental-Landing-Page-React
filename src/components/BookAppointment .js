@@ -8,3 +8,5 @@ function BookAppointment() {
 const Wrapper = styled.div`
   background: var(--dark-green, #395a44);
 `;
+
+export default BookAppointment;
