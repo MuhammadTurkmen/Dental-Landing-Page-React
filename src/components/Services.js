@@ -44,10 +44,10 @@ const Wrapper = styled.div`
     text-align: start;
     justify-content: space-between;
     color: #395a44;
+    gap: 2rem;
 
     a {
       text-decoration: none;
-      margin-top: 2rem;
       color: #395a44;
     }
     a:hover {
