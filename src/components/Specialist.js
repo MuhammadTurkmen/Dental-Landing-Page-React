@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { specialists } from "../data";
 
 function Specialist() {
   return (
@@ -8,9 +9,19 @@ function Specialist() {
       <div className="text-container">
         <h1>Meet Our Professinal Doctors</h1>
         <p>
-          We have the professional doctors to handle any dental case, and make
-          you smile agian
+          We have the professional doctors to handle any <br /> dental case, and
+          make you smile agian
         </p>
+      </div>
+      <div className="img-container">
+        {specialists.map(({ img, name }, index) => {
+          return (
+            <div key={index}>
+              <img src={img} alt={name} />
+              <p>{name}</p>
+            </div>
+          );
+        })}
       </div>
     </Wrapper>
   );
@@ -43,10 +54,28 @@ const Wrapper = styled.div`
     }
   }
   @media only screen and (min-width: 800px) {
+    padding: 6rem 3.5rem;
+    .text-container {
+      h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 19px;
+        margin-top: 0.5rem;
+      }
+    }
   }
   @media only screen and (min-width: 1020px) {
+    padding: 6rem 4rem;
+    .text-container {
+      p {
+        font-size: 25px;
+      }
+    }
   }
   @media only screen and (min-width: 1300px) {
+    padding: 6rem 5.5rem;
   }
 `;
 

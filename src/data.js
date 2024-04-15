@@ -1,6 +1,9 @@
 import smile from "./images/smile_girl.svg";
 import tooth from "./images/svg/icons8-tooth-50 1.png";
 import check from "./images/svg/CheckCircle.svg";
+import Ann from "./images/Ann.png";
+import Ellen from "./images/Ellen.png";
+import Katrin from "./images/Katrin.png";
 
 export const links = [
   {
@@ -110,5 +113,20 @@ export const cards = [
     tooth,
     name: "root canal treatment ",
     desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+];
+
+export const specialists = [
+  {
+    img: Ann,
+    name: "Ann",
+  },
+  {
+    img: Ellen,
+    name: "Ellen",
+  },
+  {
+    img: Katrin,
+    name: "Kartin",
   },
 ];
