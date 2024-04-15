@@ -153,3 +153,18 @@ export const inputs = [
     type: "time",
   },
 ];
+
+export const working_hours = [
+  {
+    day: "Monday to Thursday",
+    hours: "07:00 - 15:00",
+  },
+  {
+    day: "Friday",
+    hours: "07:00 - 13:00",
+  },
+  {
+    day: "Saturday, Sunday and public holidays",
+    hours: "closed",
+  },
+];
