@@ -10,8 +10,8 @@ function Services() {
         <div className="clinic-services">
           <h1 className="services-title">Clinic Services</h1>
           <p className="desc">
-            we use the best quality materials on the market in order to provide
-            the best products to our patients
+            we use the best quality materials on the market in order to
+            <br /> provide the best products to our patients
           </p>
         </div>
         <a href="#">More Services</a>
@@ -58,6 +58,7 @@ const Wrapper = styled.div`
     a {
       text-decoration: none;
       color: #395a44;
+      align-self: flex-start;
     }
     a:hover {
       text-decoration: underline;
@@ -82,10 +83,12 @@ const Wrapper = styled.div`
 
   .card {
     border-radius: 1rem;
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
     padding: 3rem;
+    box-sizing: border-box;
     text-align: start;
+    border: 1px solid #395a44;
   }
   .card:hover {
     box-shadow: 0px 11px 15px 0px rgba(57, 90, 68, 0.3);
@@ -105,6 +108,31 @@ const Wrapper = styled.div`
   .btn:hover {
     background-color: #395a44;
     color: #e5efe8;
+  }
+
+  @media only screen and (min-width: 800px) {
+    padding: 6rem 3.5rem;
+    .services-title {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    .text-container {
+      a {
+        font-size: 20px;
+      }
+    }
+
+    .card-container {
+      justify-content: center;
+    }
+    .desc {
+      font-size: 19px;
+    }
+  }
+
+  @media only screen and (min-width: 1020px) {
+    padding: 6rem 4rem;
   }
 `;
 
