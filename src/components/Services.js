@@ -52,6 +52,7 @@ const Wrapper = styled.div`
     }
     a:hover {
       text-decoration: underline;
+      font-weight: bold;
     }
   }
   .services-title {
