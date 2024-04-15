@@ -17,6 +17,7 @@ function Services() {
       </div>
       <div className="card-container">
         <div className="card"></div>
+        <div className="card"></div>
       </div>
     </Wrapper>
   );
