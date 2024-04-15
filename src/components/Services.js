@@ -71,6 +71,11 @@ const Wrapper = styled.div`
   .desc {
     font-size: 14px;
   }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 
 export default Services;
