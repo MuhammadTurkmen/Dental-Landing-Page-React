@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function BookAppointment() {
-  return <div>Book Appointment </div>;
+  return <Wrapper>Book Appointment </Wrapper>;
 }
 
 const Wrapper = styled.div`
