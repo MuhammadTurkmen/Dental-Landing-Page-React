@@ -4,7 +4,7 @@ import check from "./images/svg/CheckCircle.svg";
 import Ann from "./images/Ann.png";
 import Ellen from "./images/Ellen.png";
 import Katrin from "./images/Katrin.png";
-
+import star from "./images/svg/Star.svg";
 export const links = [
   {
     id: 1,
@@ -171,30 +171,35 @@ export const working_hours = [
 
 export const client_response = [
   {
+    star,
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     pic: smile,
     name: "Eleanor Pena",
     job: "Web Designer",
   },
   {
+    star,
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     pic: smile,
     name: "Eleanor Pena",
     job: "Web Designer",
   },
   {
+    star,
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     pic: smile,
     name: "Eleanor Pena",
     job: "Web Designer",
   },
   {
+    star,
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     pic: smile,
     name: "Eleanor Pena",
     job: "Web Designer",
   },
   {
+    star,
     desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     pic: smile,
     name: "Eleanor Pena",

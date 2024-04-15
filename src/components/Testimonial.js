@@ -1,16 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import { client_response } from "../data";
 
 function Testimonial() {
   return (
     <Wrapper>
       <p className="title">Specialist</p>
+      <h1>What Our Client Say </h1>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   background: var(--Light-green, #cfe3cc);
+  color: var(--dark-green, #395a44);
+
   padding: 5rem 1.5rem;
 
   .title {
