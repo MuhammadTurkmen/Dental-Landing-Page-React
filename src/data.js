@@ -226,3 +226,60 @@ export const about_us_desc = [
     desc: "Dento was founded in 2006 by Dr. John Dento. He is a graduate of the University of Michigan School of Dentistry and has been practicing dentistry for over 20 years.",
   },
 ];
+
+export const all_services = [
+  {
+    id: 1,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 2,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 3,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 4,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 5,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 6,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 7,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 8,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    id: 9,
+    tooth,
+    title: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+];

@@ -16,6 +16,44 @@ function Services() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  header {
+    background-color: #e5efe8;
+    padding: 5rem 1.5rem;
+    color: var(--dark-green, #395a44);
+    h1 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+      margin-top: 0.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    header {
+      padding: 5rem 3.5rem;
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1020px) {
+    header,
+    main {
+      padding: 5rem 4rem;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    header,
+    main {
+      padding: 5rem 5.5rem;
+    }
+  }
+`;
 
 export default Services;
