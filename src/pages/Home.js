@@ -4,6 +4,7 @@ import Benefits from "../components/Benefits";
 import Services from "../components/Services";
 import Specialist from "../components/Specialist";
 import BookAppointment from "../components/BookAppointment ";
+import Testimonial from "../components/Testimonial";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Services />
       <Specialist />
       <BookAppointment />
+      <Testimonial />
     </>
   );
 }
