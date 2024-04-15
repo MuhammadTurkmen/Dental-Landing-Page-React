@@ -26,10 +26,10 @@ const Wrapper = styled.div`
     padding: 6rem 3.5rem;
   }
   @media only screen and (min-width: 1020px) {
-    padding: 6rem 3.5rem;
+    padding: 6rem 4rem;
   }
   @media only screen and (min-width: 1300px) {
-    padding: 6rem 3.5rem;
+    padding: 6rem 5.5rem;
   }
 `;
 
