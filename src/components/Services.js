@@ -23,11 +23,10 @@ function Services() {
               <img src={tooth} alt={name} />
               <h3>{name}</h3>
               <p>{desc}</p>
+              <button className="btn">Learn More</button>
             </div>
           );
         })}
-
-        <div className="card"></div>
       </div>
     </Wrapper>
   );
@@ -73,15 +72,39 @@ const Wrapper = styled.div`
   }
 
   .card-container {
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
   }
 
   .card {
-    width: 350px;
+    border-radius: 1rem;
+    width: 300px;
     margin: 0 auto;
+    padding: 3rem;
+    text-align: start;
+  }
+  .card:hover {
+    box-shadow: 0px 11px 15px 0px rgba(57, 90, 68, 0.3);
+  }
+
+  .btn {
+    margin-top: 3rem;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    border: none;
+    color: var(--dark-green, #395a44);
+    background-color: #e5efe8;
+    border: 1px solid #395a44;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #395a44;
+    color: #e5efe8;
   }
 `;
 
