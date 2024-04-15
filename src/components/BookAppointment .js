@@ -11,6 +11,8 @@ function BookAppointment() {
 
 const Wrapper = styled.div`
   background: var(--dark-green, #395a44);
+  padding: 6rem 1.5rem;
+
   .title {
     background-color: #f2e9b7;
     padding: 5px 10px;
@@ -18,6 +20,10 @@ const Wrapper = styled.div`
     border-radius: 5px;
     display: inline-block;
     color: var(--dark-green, #395a44);
+  }
+
+  @media only screen and (min-width: 800px) {
+    padding: 6rem 3.5rem;
   }
 `;
 
