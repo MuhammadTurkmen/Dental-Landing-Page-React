@@ -5,6 +5,11 @@ function BookAppointment() {
   return (
     <Wrapper>
       <p className="title">Specialist</p>
+      <div className="container">
+        <div className="form-container"></div>
+        <div className="hours-container"></div>
+      </div>
+      .
     </Wrapper>
   );
 }
@@ -12,6 +17,7 @@ function BookAppointment() {
 const Wrapper = styled.div`
   background: var(--dark-green, #395a44);
   padding: 6rem 1.5rem;
+  text-align: center;
 
   .title {
     background-color: #f2e9b7;
