@@ -1,7 +1,8 @@
 import React from "react";
+import ServicesComponent from "../components/ServicesPageComponents/Services";
 
 function Services() {
-  return <div>Services page</div>;
+  return <ServicesComponent />;
 }
 
 export default Services;

@@ -6,8 +6,9 @@ function Header() {
     <Wrapper>
       <h1>About Us</h1>
       <p>
-        We have a team of highly trained and experienced dentists who are
-        dedicated to providing the best possible dental care to our patients.
+        We have a team of highly trained and experienced dentists <br /> who are
+        dedicated to providing the best possible dental care <br /> to our
+        patients.
       </p>
     </Wrapper>
   );
@@ -27,6 +28,12 @@ const Wrapper = styled.div`
 
   @media only screen and (min-width: 800px) {
     padding: 5rem 3.5rem;
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 22px;
+    }
   }
 
   @media only screen and (min-width: 1020px) {
