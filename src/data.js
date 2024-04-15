@@ -168,3 +168,12 @@ export const working_hours = [
     hours: "closed",
   },
 ];
+
+export const client_response = [
+  {
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
+    pic: smile,
+    name: "Eleanor Pena",
+    job: "Web Designer",
+  },
+];
