@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Benefits from "../components/Benefits";
 import Services from "../components/Services";
+import Specialist from "../components/Specialist";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Hero />
       <Benefits />
       <Services />
+      <Specialist />
     </>
   );
 }
