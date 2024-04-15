@@ -17,7 +17,16 @@ function Services() {
         <a href="#">More Services</a>
       </div>
       <div className="card-container">
-        <div className="card"></div>
+        {cards.map(({ tooth, name, desc }) => {
+          return (
+            <div className="card">
+              <img src={tooth} alt={name} />
+              <h3>{name}</h3>
+              <p>{desc}</p>
+            </div>
+          );
+        })}
+
         <div className="card"></div>
       </div>
     </Wrapper>
