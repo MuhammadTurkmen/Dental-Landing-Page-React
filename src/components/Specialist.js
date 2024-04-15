@@ -17,8 +17,8 @@ function Specialist() {
         {specialists.map(({ img, name }, index) => {
           return (
             <div key={index}>
-              <img src={img} alt={name} />
-              <p>{name}</p>
+              <img className="img" src={img} alt={name} />
+              <p className="name">{name}</p>
             </div>
           );
         })}
@@ -53,6 +53,22 @@ const Wrapper = styled.div`
       font-size: 14px;
     }
   }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    div {
+      width: 263px;
+    }
+  }
+  .img {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
   @media only screen and (min-width: 800px) {
     padding: 6rem 3.5rem;
     .text-container {
