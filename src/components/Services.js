@@ -25,6 +25,8 @@ function Services() {
 
 const Wrapper = styled.div`
   background: var(--lighter-green, #e5efe8);
+  text-align: center;
+  padding: 6rem 1.5rem;
 
   .title {
     background-color: #f2e9b7;
@@ -33,6 +35,25 @@ const Wrapper = styled.div`
     border-radius: 5px;
     display: inline-block;
     color: var(--dark-green, #395a44);
+  }
+
+  .text-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+    color: #395a44;
+
+    a {
+      text-decoration: none;
+    }
+  }
+  .services-title {
+    font-size: 2rem;
+  }
+  .desc {
+    font-size: 14px;
   }
 `;
 

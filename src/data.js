@@ -94,3 +94,21 @@ export const all_benefits = [
     check,
   },
 ];
+
+export const cards = [
+  {
+    tooth,
+    name: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    tooth,
+    name: "Dental treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+  {
+    tooth,
+    name: "root canal treatment ",
+    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
+  },
+];
