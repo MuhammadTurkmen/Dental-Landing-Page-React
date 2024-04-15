@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { smile_pics } from "../data";
 import women from "../images/women.png";
-import card from "../images/svg/Group 6.svg";
+import card from "../images/svg/logo-light.svg";
 
 function Hero() {
   return (

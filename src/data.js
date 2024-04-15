@@ -8,6 +8,7 @@ import star from "./images/svg/Star.svg";
 export const links = [
   {
     id: 1,
+
     name: "Home",
     path: "/",
   },
@@ -204,5 +205,24 @@ export const client_response = [
     pic: smile,
     name: "Eleanor Pena",
     job: "Web Designer",
+  },
+];
+
+export const about_us_desc = [
+  {
+    id: 1,
+    desc: "Dento is a global dental care service. We provide dental care to patients in more than 50 countries.",
+  },
+  {
+    id: 2,
+    desc: "We have a team of highly trained and experienced dentists who are dedicated to providing the best possible dental care to our patients.",
+  },
+  {
+    id: 3,
+    desc: "We offer a wide range of dental services, including teeth whitening, Invisalign, veneers, and more. We also offer a variety of payment options, so that you can choose the one that best suits your needs.",
+  },
+  {
+    id: 4,
+    desc: "Dento was founded in 2006 by Dr. John Dento. He is a graduate of the University of Michigan School of Dentistry and has been practicing dentistry for over 20 years.",
   },
 ];
