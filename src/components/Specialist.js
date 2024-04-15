@@ -42,6 +42,12 @@ const Wrapper = styled.div`
       font-size: 14px;
     }
   }
+  @media only screen and (min-width: 800px) {
+  }
+  @media only screen and (min-width: 1020px) {
+  }
+  @media only screen and (min-width: 1300px) {
+  }
 `;
 
 export default Specialist;
