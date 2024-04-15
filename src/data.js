@@ -277,12 +277,6 @@ export const all_services = [
     desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
   },
   {
-    id: 8,
-    tooth,
-    title: "root canal treatment ",
-    desc: "We clean the tooth and remove the infection which is causing the pain in root canal.",
-  },
-  {
     id: 9,
     tooth,
     title: "root canal treatment ",
