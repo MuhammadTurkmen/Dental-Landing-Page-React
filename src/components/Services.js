@@ -17,9 +17,9 @@ function Services() {
         <a href="#">More Services</a>
       </div>
       <div className="card-container">
-        {cards.map(({ tooth, name, desc }) => {
+        {cards.map(({ tooth, name, desc }, index) => {
           return (
-            <div className="card">
+            <div key={index} className="card">
               <img src={tooth} alt={name} />
               <h3>{name}</h3>
               <p>{desc}</p>
