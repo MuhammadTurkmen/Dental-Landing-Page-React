@@ -12,16 +12,34 @@ function BookAppointment() {
             make an appointment for dental consultation and treatment or call us
             on direct line +07052689437
           </p>
+          <form>
+            <div className="input-container">
+              <div>
+                <label htmlFor="name">Full Name</label>
+                <input type="text" name="" id="name" />
+              </div>
+
+              <label htmlFor="number">Phone number</label>
+              <input type="number" name="" id="number" />
+
+              <label htmlFor="date">Date</label>
+              <input type="date" name="" id="date" />
+
+              <label htmlFor="time">Time</label>
+              <input type="time" name="" id="time" />
+            </div>
+          </form>
         </div>
         <div className="hours-container"></div>
       </div>
-      .
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   background: var(--dark-green, #395a44);
+  color: var(--lighter-green, #e5efe8);
+
   padding: 6rem 1.5rem;
   text-align: center;
 
@@ -32,6 +50,32 @@ const Wrapper = styled.div`
     border-radius: 5px;
     display: inline-block;
     color: var(--dark-green, #395a44);
+  }
+
+  form {
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  .input-container {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  input {
+    padding: 1rem;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  label {
+    display: block;
   }
 
   @media only screen and (min-width: 800px) {

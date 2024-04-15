@@ -130,3 +130,26 @@ export const specialists = [
     name: "Kartin",
   },
 ];
+
+export const inputs = [
+  {
+    id: "name",
+    label: "Full Name",
+    type: "text",
+  },
+  {
+    id: "number",
+    label: "Phone Number",
+    type: "number",
+  },
+  {
+    id: "date",
+    label: "Date",
+    type: "date",
+  },
+  {
+    id: "time",
+    label: "Time",
+    type: "time",
+  },
+];
