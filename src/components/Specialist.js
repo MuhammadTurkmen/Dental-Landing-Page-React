@@ -29,7 +29,9 @@ function Specialist() {
 
 const Wrapper = styled.div`
   background: var(--lighter-green, #e5efe8);
-  padding: 6rem 1.5rem;
+  padding: 7rem 1.5rem;
+
+  color: #395a44;
 
   text-align: center;
   .title {
@@ -43,7 +45,6 @@ const Wrapper = styled.div`
 
   .text-container {
     text-align: start;
-    color: #395a44;
     margin-top: 3rem;
 
     h1 {
@@ -55,9 +56,13 @@ const Wrapper = styled.div`
   }
 
   .img-container {
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
+
     div {
       width: 263px;
     }
@@ -67,6 +72,7 @@ const Wrapper = styled.div`
     padding: 1rem;
     border: 1px solid black;
     box-sizing: border-box;
+    border-radius: 10px;
   }
 
   @media only screen and (min-width: 800px) {
@@ -92,6 +98,13 @@ const Wrapper = styled.div`
   }
   @media only screen and (min-width: 1300px) {
     padding: 6rem 5.5rem;
+
+    .img-container {
+      gap: 4rem;
+      div {
+        width: 350px;
+      }
+    }
   }
 `;
 
