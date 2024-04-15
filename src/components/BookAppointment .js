@@ -6,7 +6,13 @@ function BookAppointment() {
     <Wrapper>
       <p className="title">Specialist</p>
       <div className="container">
-        <div className="form-container"></div>
+        <div className="form-container">
+          <h1>Book Appointment</h1>
+          <p>
+            make an appointment for dental consultation and treatment or call us
+            on direct line +07052689437
+          </p>
+        </div>
         <div className="hours-container"></div>
       </div>
       .
