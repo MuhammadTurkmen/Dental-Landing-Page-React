@@ -47,6 +47,11 @@ const Wrapper = styled.div`
 
     a {
       text-decoration: none;
+      margin-top: 2rem;
+      color: #395a44;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
   .services-title {
