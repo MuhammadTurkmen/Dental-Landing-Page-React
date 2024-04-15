@@ -75,6 +75,13 @@ const Wrapper = styled.div`
   .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 350px;
+    margin: 0 auto;
   }
 `;
 
