@@ -14,7 +14,7 @@ function Services() {
             <br /> provide the best products to our patients
           </p>
         </div>
-        <a href="/#">More Services</a>
+        <a href="/services">More Services</a>
       </div>
       <div className="card-container">
         {cards.map(({ tooth, name, desc }, index) => {
