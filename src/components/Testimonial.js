@@ -12,11 +12,11 @@ function Testimonial() {
           return (
             <div className="card" key={index}>
               {Stars.map((star, index) => {
-                return <img src={star} alt="" key={index} />;
+                return <img src={star} alt="clients" key={index} />;
               })}
               <p>{desc}</p>
               <div className="img-container">
-                <img src={pic} alt="picture" />
+                <img src={pic} alt="client" />
                 <div>
                   <p>{name}</p>
                   <p>{job}</p>

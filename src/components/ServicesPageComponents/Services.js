@@ -21,7 +21,9 @@ function Services() {
                 <img src={tooth} alt="tooth" />
                 <h1>{title}</h1>
                 <p>{desc}</p>
-                <Link className="btn">Learn more</Link>
+                <Link to="#" className="btn">
+                  Learn more
+                </Link>
               </div>
             );
           })}
