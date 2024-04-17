@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { cards } from "../data";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -14,7 +15,7 @@ function Services() {
             <br /> provide the best products to our patients
           </p>
         </div>
-        <a href="/services">More Services</a>
+        <Link to="/services">More Services</Link>
       </div>
       <div className="card-container">
         {cards.map(({ tooth, name, desc }, index) => {
