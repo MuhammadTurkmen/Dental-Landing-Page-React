@@ -6,7 +6,9 @@ import { working_hours } from "../data";
 function BookAppointment() {
   return (
     <Wrapper>
-      <p className="title">Specialist</p>
+      <p className="title" id="book-appointment">
+        belllllll
+      </p>
       <div className="container">
         <div className="form-container">
           <h1>Book Appointment</h1>

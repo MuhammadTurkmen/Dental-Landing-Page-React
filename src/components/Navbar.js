@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../images/svg/Star.svg";
+import Logo from "../images/svg/logo-dark.svg";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
@@ -12,7 +12,10 @@ function Navbar() {
   return (
     <Wrapper>
       <div className="container">
-        <img className="logo" src={logo} alt="" />
+        <div className="logo-div">
+          <img src={Logo} alt="logo" className="logo" />
+          <h1>Dento</h1>
+        </div>
         <div
           className={isSidbarOpen ? "links-container show" : "links-container"}>
           <IoClose
@@ -22,7 +25,7 @@ function Navbar() {
           {links.map(({ name, path, id }) => {
             return (
               <Link
-                className={name === "Kontakt oss" ? "contact-us" : ""}
+                className={name === "Book Appointment" ? "contact-us" : ""}
                 key={id}
                 to={path}
                 onClick={() => setIsSidbarOpen(false)}>
@@ -32,8 +35,8 @@ function Navbar() {
           })}
         </div>
         <div className="btn-sidbar-container">
-          <Link className="contact-us hide" to="#footer">
-            Kontakt oss
+          <Link className="contact-us hide" to="/?#book-appointment">
+            Book Appointment
           </Link>
           <FaBars className="bars" onClick={() => setIsSidbarOpen(true)} />
         </div>
@@ -44,6 +47,12 @@ function Navbar() {
 
 const Wrapper = styled.div`
   background-color: #e5efe8;
+  .logo-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .container {
     display: flex;
     align-items: center;

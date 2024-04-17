@@ -24,8 +24,8 @@ export const links = [
   },
   {
     id: 4,
-    name: "Kontakt oss",
-    path: "#contact",
+    name: "Book Appointment",
+    path: "/#book-appointment",
   },
 ];
 

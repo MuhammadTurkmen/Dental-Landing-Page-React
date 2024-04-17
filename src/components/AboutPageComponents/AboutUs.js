@@ -188,7 +188,7 @@ const Wrapper = styled.div`
     }
 
     .second-container {
-      padding: 5rem 4rem;
+      padding: 8rem 4rem;
       h1 {
         flex: 1;
         margin: 0;
@@ -238,7 +238,7 @@ const Wrapper = styled.div`
     }
 
     .second-container {
-      padding: 5rem 5.5rem;
+      padding: 8rem 5.5rem;
     }
   }
 `;
