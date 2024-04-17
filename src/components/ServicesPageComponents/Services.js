@@ -17,11 +17,11 @@ function Services() {
         <div className="main-container">
           {all_services.map(({ tooth, title, desc, id }) => {
             return (
+              // eslint-disable-next-line
               <div key={id} className="service">
                 <img src={tooth} alt="tooth" />
                 <h1>{title}</h1>
                 <p>{desc}</p>
-                // eslint-disable-next-line
                 <Link to="/#book-appointment" className="btn">
                   Learn more
                 </Link>
