@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import Logo from "../images/svg/logo-light.svg";
 import { GoArrowRight } from "react-icons/go";
 
 function Footer() {
-  const [email, setEmail] = useState("");
-
   return (
     <Wrapper>
       <div className="container" id="#footer">

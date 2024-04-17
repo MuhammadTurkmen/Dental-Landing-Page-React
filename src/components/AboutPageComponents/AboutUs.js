@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Ann from "../../images/Ann-1.jpg";
-import { all_benefits, about_us_desc } from "../../data";
+import { about_us_desc } from "../../data";
 import card from "../../images/svg/logo-green.svg";
 import { Link } from "react-router-dom";
 
